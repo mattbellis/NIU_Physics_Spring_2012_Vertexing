@@ -1,0 +1,17 @@
+################################################################################
+# README
+################################################################################
+
+This directory contains a number (n=1 right now) of tools to visualize the line
+intersection code.
+
+
+
+################################################################################
+# display_lines.py
+#
+# Python script. Requires matplotlib.
+#
+################################################################################
+
+chibacity:> python display_lines.py ../src/lines.csv
