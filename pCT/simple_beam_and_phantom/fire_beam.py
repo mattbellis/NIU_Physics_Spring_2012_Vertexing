@@ -8,6 +8,9 @@ import pct_utilities as pct
 ################################################################################
 def main():
 
+    ############################################################################
+    # Initialization
+    ############################################################################
     nprotons = 1000
     MASS_proton = 938.272
     # Is this really the momentum?
@@ -19,7 +22,7 @@ def main():
 
     time_step = 0.10 # ns
 
-    size_of_phantom = 10 # cm
+    size_of_phantom = 5 # cm
 
     pixel_positions = []
 
@@ -29,6 +32,8 @@ def main():
     # A bit of plotting declarations.
     fig = plt.figure(figsize=(12,8))
     ax = fig.add_subplot(111)
+
+    ############################################################################
 
     x,y,z = 0.0,0.0,0.0
     n=0
